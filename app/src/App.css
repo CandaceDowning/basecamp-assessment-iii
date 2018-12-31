@@ -1,0 +1,85 @@
+a{
+  text-decoration: none;
+  font-weight: bold;
+}
+
+p{
+ color: hotpink;
+}
+
+.things{
+ font-family: courier;
+}
+
+li {
+ float: right;
+ display: block;
+ padding: 20px 10px;
+ font-size: 24px;
+ color: slateblue;
+}
+
+ul {
+ background-color:violet;
+ font-weight: bold;
+ overflow: hidden;
+ margin: 0;
+ padding: 0px 30px;
+}
+
+.siteName{
+ float: left;
+}
+
+.things{
+ text-align: center;
+}
+
+.cute {
+ background-color: cornflowerblue;
+ font-size: 100px;
+ min-height: 20vh;
+ max height: 40vh;
+ display: flex; 
+ align-items: center;
+ justify-content: center;
+}
+.cuteLink {
+ color:seagreen;
+}
+
+body{
+ background-color:paleturquoise;
+}
+
+.creepy {
+ background-color: slateblue;
+ font-size: 20px;
+ height: 225px;
+ display: inline-block;
+ border-radius: 45px;
+ padding: 30px 30px;
+ margin-top: 75px;
+}
+.creepyLink {
+ color:mediumseagreen;
+ font-size: 50px;
+}
+
+.scary {
+ background-color: purple;
+ font-size: 25px;
+ height: 60px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.scaryLink {
+ color:lightgreen;
+}
+footer{
+ position: absolute;
+ left:0;
+ right:0;
+ bottom:0;
+}
